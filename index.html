@@ -367,32 +367,7 @@
   .acc-item.open .acc-body{max-height:300px}
   .acc-body-inner{padding:0 24px 24px;color:var(--muted);font-size:.95rem;line-height:1.65}
 
-  /* ==== TESTIMONIALS ==== */
-  .testimonials{background:var(--cream)}
-  .t-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-  .t-card{background:var(--white);border-radius:22px;padding:32px 28px;position:relative;border-top:5px solid}
-  .t-card:nth-child(1){border-color:var(--burgundy);background:linear-gradient(180deg,var(--burgundy-tint) 0%,var(--white) 30%)}
-  .t-card:nth-child(2){border-color:var(--hot);background:linear-gradient(180deg,var(--hot-tint) 0%,var(--white) 30%)}
-  .t-card:nth-child(3){border-color:var(--wine);background:linear-gradient(180deg,var(--wine-tint) 0%,var(--white) 30%)}
-  .t-card:nth-child(4){border-color:var(--sage);background:linear-gradient(180deg,var(--sage-tint) 0%,var(--white) 30%)}
-  .t-card:nth-child(5){border-color:var(--mist);background:linear-gradient(180deg,var(--mist-tint) 0%,var(--white) 30%)}
-  .t-card:nth-child(6){border-color:var(--gold);background:linear-gradient(180deg,var(--gold-tint) 0%,var(--white) 30%)}
-  .t-card::before{content:"“";position:absolute;top:10px;left:24px;font-family:'Cormorant Garamond',serif;font-size:5rem;opacity:.3;line-height:1}
-  .t-card:nth-child(1)::before{color:var(--burgundy)}
-  .t-card:nth-child(2)::before{color:var(--hot)}
-  .t-card:nth-child(3)::before{color:var(--wine)}
-  .t-card:nth-child(4)::before{color:#4a6040}
-  .t-card:nth-child(5)::before{color:#3f5e70}
-  .t-card:nth-child(6)::before{color:#9e7b2d}
-  .t-card p{font-size:.98rem;color:var(--ink);line-height:1.7;margin:22px 0 20px;position:relative;z-index:2}
-  .t-person{display:flex;align-items:center;gap:14px;padding-top:18px;border-top:1px solid var(--line)}
-  .t-av{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:700}
-  .t-person b{display:block;font-size:.95rem;font-weight:600}
-  .t-person span{font-size:.82rem;color:var(--muted)}
-  .stars{color:var(--hot);letter-spacing:3px;margin-bottom:8px;font-size:.88rem}
-  .t-card:nth-child(4) .stars{color:#4a6040}
-  .t-card:nth-child(5) .stars{color:#3f5e70}
-  .t-card:nth-child(6) .stars{color:#9e7b2d}
+
 
   /* ==== FAQ ==== */
   .faq{background:var(--wine-tint);position:relative}
@@ -474,7 +449,7 @@
     .hero-visual{height:auto;display:grid;gap:16px}
     .hero-photo,.card-a,.card-b,.card-c{position:relative;inset:auto;width:100%}
     .hero-photo{height:260px}
-    .services,.t-grid,.esg-grid{grid-template-columns:1fr}
+    .services,.esg-grid{grid-template-columns:1fr}
     .ind-grid{grid-template-columns:repeat(2,1fr)}
     .pillars{grid-template-columns:1fr}
     .nav-links{display:none}
@@ -952,47 +927,7 @@
   </div>
 </section>
 
-<!-- ============ TESTIMONIALS ============ -->
-<section class="testimonials">
-  <div class="container">
-    <div class="section-head">
-      <div class="eyebrow" style="justify-content:center">Client Voices</div>
-      <h2>Partnerships built on trust, <i style="color:var(--burgundy)">results</i> that stay.</h2>
-    </div>
-    <div class="t-grid">
-      <div class="t-card">
-        <div class="stars">★★★★★</div>
-        <p>Tarkash mobilised 60+ workers within 72 hours for our port expansion project. Every candidate was vetted, documented, and ready on day one. Compliance-grade work.</p>
-        <div class="t-person"><div class="t-av" style="background:var(--burgundy)">RK</div><div><b>Rohit Khanna</b><span>Operations Head · Logistics</span></div></div>
-      </div>
-      <div class="t-card">
-        <div class="stars">★★★★★</div>
-        <p>Dr. Aftab and his team understood our ESG reporting gaps better than our own consultants. Their inclusive-sourcing playbook reshaped our talent pipeline.</p>
-        <div class="t-person"><div class="t-av" style="background:var(--hot)">SA</div><div><b>Sarah Al Nuaimi</b><span>Group HR Director · Retail</span></div></div>
-      </div>
-      <div class="t-card">
-        <div class="stars">★★★★★</div>
-        <p>We've used three agencies in Sharjah. Tarkash is the only one where zero workers went back in the first six months. Retention speaks louder than promises.</p>
-        <div class="t-person"><div class="t-av" style="background:var(--wine)">JM</div><div><b>James Mathew</b><span>Project Director · Construction</span></div></div>
-      </div>
-      <div class="t-card">
-        <div class="stars">★★★★★</div>
-        <p>The Green HR transition they ran for us cut onboarding paperwork by 82% in 90 days. A proper modern HR partner, not a paper-shuffler.</p>
-        <div class="t-person"><div class="t-av" style="background:#4a6040">PT</div><div><b>Priya Thomas</b><span>CHRO · Manufacturing</span></div></div>
-      </div>
-      <div class="t-card">
-        <div class="stars">★★★★★</div>
-        <p>Their DEI diagnostic exposed representation gaps we'd been ignoring for three years. The action plan was practical, board-ready, and genuinely enforceable.</p>
-        <div class="t-person"><div class="t-av" style="background:#3f5e70">AK</div><div><b>Aisha Kamil</b><span>Head of People · Hospitality</span></div></div>
-      </div>
-      <div class="t-card">
-        <div class="stars">★★★★★</div>
-        <p>Ethical recruitment used to feel like a compliance checkbox. With Tarkash, it's become a competitive advantage we talk about openly with investors.</p>
-        <div class="t-person"><div class="t-av" style="background:#9e7b2d">MV</div><div><b>Marcus Valente</b><span>CEO · Facility Management Group</span></div></div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <!-- ============ FAQ ============ -->
 <section class="faq">
